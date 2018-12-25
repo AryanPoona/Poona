@@ -2,6 +2,7 @@ package com;
 import java.sql.DriverManager;
 import com.mysql.jdbc.Connection;
 
+//This class is using to connect with Mysql server 
 class MysqlConnection{  
 public static void main(String args[]){  
 	Connection conn= null;
