@@ -3,6 +3,7 @@ import java.sql.DriverManager;
 import com.mysql.jdbc.Connection;
 
 //This class is using to connect with Mysql server 
+//To connect your connection check your Data Source 
 class MysqlConnection{  
 public static void main(String args[]){  
 	Connection conn= null;
